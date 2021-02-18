@@ -19,18 +19,18 @@ int main(int argc, char *argv[])
 	
 	int i = 1; 
 	
-	while (i < argc) //loop through the amount of arguments
+	while (i < argc) 					//loop through the amount of arguments
 	{
 		FileManager obj(argv[i]);
 		
-		if (obj.getUserName() == "Destroy Me") //error checking to see if the file exists in the system or not
+		if (obj.getUserName() == "Destroy Me") 		//error checking to see if the file exists in the system or not
 		{
 			cout << obj .getName() << ": No such file or directory" << endl; 
 			i++;
 			continue;
 		}
 		
-		obj.dump(cout); //for each FileManager object, the contents are dumped to the cout stream for the user to view
+		obj.dump(cout); 				//for each FileManager object, the contents are dumped to the cout stream for the user to view
 		
 		cout << endl;
 		
