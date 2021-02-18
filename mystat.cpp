@@ -11,7 +11,7 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
-	if (argc != 2) //argument input check to see if the number of arguments including the program name
+	if (argc != 2) 				//argument input check to see if the number of arguments including the program name
 	{
 		cout << "You have entered an incorrect amount of arguments" << endl;
 		return 0;
