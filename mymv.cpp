@@ -25,9 +25,9 @@ int main(int argc, char *argv[])
 		return 0;
 	}
 	
-	int check = obj1.rename_(argv[2]); //uses rename to move file locally
+	int check = obj1.rename_(argv[2]); 		//uses rename to move file locally
 	
-	if (check != 0) //this is for if the file transfer is over two different systems (if an error occurs in the rename_ we know)
+	if (check != 0) 				//this is for if the file transfer is over two different systems (if an error occurs in the rename_ we know)
 	{
 		ofstream file{argv[2]};
 		
