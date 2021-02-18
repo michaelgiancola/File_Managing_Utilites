@@ -1,5 +1,5 @@
 # File_Managing_Utilites
-Employed [VirtualBox](https://www.virtualbox.org/) virtual machine to access Linux-based [Raspberry Pi Desktop](https://www.raspberrypi.org/software/raspberry-pi-desktop/) C++ compiler to create custom system utilities for file management.
+Used [VirtualBox](https://www.virtualbox.org/) virtual machine to access Linux-based [Raspberry Pi Desktop](https://www.raspberrypi.org/software/raspberry-pi-desktop/) C++ compiler to create custom system utilities for file management.
 
 ## Practical Take-Away Experience
 *	C++
