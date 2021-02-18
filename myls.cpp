@@ -67,7 +67,7 @@ int main(int argc, char *argv[])
 			return 0;
 		}
 		
-		if (obj.getFileType(obj.getType()) == "directory")//if the object is a directory then we must iterate through its childrena and output the names
+		if (obj.getFileType(obj.getType()) == "directory") //if the object is a directory then we must iterate through its childrena and output the names
 		{
 			obj.expand();
 		
