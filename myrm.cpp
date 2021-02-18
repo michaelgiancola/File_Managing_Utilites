@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 	while (i < argc)
 	{
 		FileManager obj(argv[i]);
-		obj.remove(); //remove function unlinks the file from the system
+		obj.remove(); 					//remove function unlinks the file from the system
 		
 		if (obj.getUserName() == "Destroy Me")
 		{
@@ -34,13 +34,13 @@ int main(int argc, char *argv[])
 		i++;
 	}
 	
-	if (argc == 2) //if one file is being removed
+	if (argc == 2) 						//if one file is being removed
 	{
 		cout << "The requested file have been removed." << endl;
 		return 0;
 	}
 	
-	else //if multiple files are being removed
+	else 							//if multiple files are being removed
 	{
 		cout << "The requested files have been removed." << endl;
 	}
