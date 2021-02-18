@@ -11,14 +11,14 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
-	if (argc != 3) //number of arguments check
+	if (argc != 3) 									//number of arguments check
 	{
 		cout << "You have entered an incorrect amount of arguments" << endl;
 		return 0;
 	}
 	
 	FileManager obj1(argv[1]);
-	if (obj1.getUserName() == "Destroy Me") //unidentifed file check
+	if (obj1.getUserName() == "Destroy Me") 					//unidentifed file check
 	{
 		cout << obj1.getName() << ": No such file or directory" << endl;
 		return 0;
@@ -31,5 +31,5 @@ int main(int argc, char *argv[])
 		return 0;
 	}
 	
-	cout << "The files are " << obj1.compare(obj2) << endl; //calls compare to see if the contents are the same or not
+	cout << "The files are " << obj1.compare(obj2) << endl; 			//calls compare to see if the contents are the same or not
 }
