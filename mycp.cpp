@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 		return 0;
 	}
 	
-	if (obj1.getFileType(obj1.getType()) == "directory") //check to see if the original file is a directory or not
+	if (obj1.getFileType(obj1.getType()) == "directory") 		//check to see if the original file is a directory or not
 	{
 		cout << "This utility does not work on directories!" << endl;
 		return 0;
@@ -34,9 +34,9 @@ int main(int argc, char *argv[])
 		
 	string new_name = argv[2];
 	
-	ofstream file{new_name}; //creates a file in the current working directory with the name new_name
+	ofstream file{new_name}; 					//creates a file in the current working directory with the name new_name
 	
-	if (file.bad()) //error checks
+	if (file.bad()) 						//error checks
 	{
 		return EIO;
 	}
